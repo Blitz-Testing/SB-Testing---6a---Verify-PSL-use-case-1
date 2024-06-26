@@ -29,7 +29,11 @@ flows:
             3:
                 task: assign_permission_set_licenses
                 options:
-                    api_names: SurveyCreatorPsl
+                    api_names: CommerceAdminUserPsl,SurveyCreatorPsl
+            4:
+                task: assign_permission_sets
+                options:
+                    api_names: CommerceAdmin
     deploy_unmanaged:
         steps:
             '3.2':
