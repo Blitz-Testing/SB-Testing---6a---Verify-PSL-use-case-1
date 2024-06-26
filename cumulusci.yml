@@ -29,11 +29,11 @@ flows:
             3:
                 task: assign_permission_set_licenses
                 options:
-                    api_names: SalesConsoleUser,SurveyCreatorPsl,CommerceAdminUserPsl,CommerceMerchandiserUserPsl
+                    api_names: CommerceAdminUserPsl,CommerceMerchandiserUserPsl,CommerceUserPsl,SalesConsoleUser,SurveyCreatorPsl
             4:
                 task: assign_permission_sets
                 options:
-                    api_names: CommerceAdmin,Merchandiser,SalesConsoleUser
+                    api_names: CommerceAdmin,Merchandiser,SalesConsoleUser,shop
     deploy_unmanaged:
         steps:
             '3.2':
